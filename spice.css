@@ -1,14 +1,15 @@
 :root {
-  background: hotpink;
-  background-image: conic-gradient(deepskyblue, violet, deepskyblue, hotpink, salmon, deepskyblue, violet, deepskyblue);
-  color: black;
+  background: silver;
+  background-image: conic-gradient(#1ed, plum, skyblue, #fab, #fab, skyblue, plum, #1ed);
+  color: indigo;
 }
 
 :any-link {
   color: inherit;
+  background-color: rgba(216, 108, 216, 22%);
 }
 
 ::selection {
-  background: black;
-  color: hotpink;
+  background: indigo;
+  color: #fab;
 }
