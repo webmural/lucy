@@ -1,5 +1,6 @@
 :root {
-  background: silver;
+  background-color: #fab;
+  background-image: radial-gradient(#1ed, plum, skyblue, #fab, #fab, skyblue, plum, #1ed);
   background-image: conic-gradient(#1ed, plum, skyblue, #fab, #fab, skyblue, plum, #1ed);
   color: indigo;
 }
