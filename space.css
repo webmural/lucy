@@ -26,29 +26,41 @@ article {
   flex-flow: column;
 }
 
-s {
-  text-decoration: double overline;
+a::first-letter {
+  font-weight: bold;
 }
 
 h1 {
-  font-family: fantasy;
+  font-family: sans-serif;
   font-size: 2em;
+}
+
+cite {
+  font-style: inherit;
+  text-transform: uppercase;
 }
 
 .gel {
   display: flex;
+  flex-flow: column;
+  font-family: monospace;
   align-items: center;
   justify-content: center;
   margin: 0;
   min-height: 100vh;
 }
 
-.hair {
+.air {
   order: -1;
 }
 
+.eve {
+  align-items: flex-end;
+  writing-mode: vertical-lr; 
+}
+
 @media (orientation: portrait) {
-  p {
-    writing-mode: sideways-lr;
+  .gel {
+    font-family: sans-serif;
   }
 }
